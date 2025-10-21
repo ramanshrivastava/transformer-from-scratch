@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model weights and data
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+runs/
+
+# Images (keep the visualizations)
+# *.png
+# *.jpg
+# *.jpeg
+
+# Environment
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
